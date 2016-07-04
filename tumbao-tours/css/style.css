@@ -451,6 +451,14 @@ height: 5px;
     transition-delay: 0.3s;
 }
 
+.navbar-left{
+	float: left;
+}
+
+.navbar-right{
+	float: right;
+}
+
 @media screen and (min-width: 700px) and (max-width: 1280px){
 
 	h1{
@@ -517,6 +525,17 @@ height: 5px;
 
 	.info-box{
 		height: auto;
+	}
+
+	#social-media-footer ul li{
+		padding: .25em;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.navbar-right{
+		font-size: .75em;
+		float: left;
 	}
 }
 
