@@ -24,6 +24,7 @@ h3{
 
 a,a:hover{
 	color:#006847;
+	font-family: 'Open Sans', sans-serif;
 }
 
 ul li{
@@ -48,10 +49,6 @@ footer{
 	color:#CE1126;
 	/*font-family: 'Josefin Sans', sans-serif;*/
 	font-weight: bold;
-}
-
-#header-main h1 img{
-	max-width: 350px;
 }
 
 .navbar-toggle{
@@ -90,102 +87,9 @@ footer{
   border: none;
 }
 
-.navbar-toggle{
-	float: left;
-	margin-left: 15px;
-}
-
-#social-media{
-	/*padding: 1em; */
-	position: absolute;
-	right: 0;
-	top: 0;
-	margin-right: 2.5%;
-}
-
-#social-media-footer ul{
-	margin-bottom: 0;
-	padding-left: 0;
-}
-
-#social-media ul li, #social-media-footer ul li{
-  	display: inline-block;
-  	margin-left: 0.25em;
-  	padding: 0.5em;
-}
-
-/*#social-media ul li:hover{
-	border-bottom: 1px solid #ce1126;
-}*/
-
-#social-media ul li a, #social-media-footer ul li a, #social-media-footer ul li span{
-	border-bottom: 1px solid #fff;	
-  	color: #006847;
-  	font-size: 1em;
-  	padding-bottom: 1em;
-}
-
-#social-media-footer ul li #copy, #social-media-footer ul li .phone{
-	color: #ce1126;
-}
-
-#social-media-footer ul li a{
-	padding: 0;
-}
-
-#social-media ul li a:hover{
-	border-bottom: 1px solid #ce1126;
-  	color: #006847;
-  	text-decoration: none;
-}
-
-#social-media-footer ul li a:hover{
-	text-decoration: none;
-}
-
-.social-media .fa-facebook::before {
-	font-family: FontAwesome;
-	content:"\f09a";
-}
-
-.social-media .fa-twitter::before {
-	font-family: FontAwesome;
-	content:"\f099";
-}
-
-.social-media .fa-instagram::before {
-	font-family: FontAwesome;
-	content:"\f16d";
-}
-
-.social-text-link{
-	position: absolute;
-	text-indent: -9999px;
-}
-
-/*#social-media-footer ul li{
-	display: inline-block;
-}
-
-#social-media-footer .nav{
-	padding: 0;
-}
-
-#social-media-footer ul li a{
-	font-size: 1.25em;
-	line-height: 0;
-	margin-left: 1em;
-	padding: 0;
-}*/
 /*
 * Carousel
 */
-
-.carousel{
-	margin: 0 auto;
-	width: 95%;
-}
-
 .carousel-inner{
 	max-height: 450px;
 }
@@ -260,15 +164,6 @@ footer{
 
 .brand-name{
 	font-weight: bold;
-}
-
-.info-box{
-	height: 300px;
-}
-
-.custom-icons{
-	color: #006847;
-	margin-right: .5em;
 }
 
 .panel-default {
@@ -464,19 +359,11 @@ height: 5px;
 	.view{
 		height: 220px;
 	}
-
-	.info-box{
-		height: auto;
-	}
 }
 
 @media screen and (min-width: 1280px){
 	.view{
 		height: 230px;
-	}
-
-	.info-box{
-		height: auto;
 	}
 }
 
@@ -501,22 +388,6 @@ height: 5px;
 	.page-header{
 		font-size: 1em;
 		margin: 20px 0 10px;
-	}
-
-	.info-box{
-		height: auto;
-	}
-}
-
-@media screen and (max-width: 500px){
-	#header-main h1 img {
-		max-width: 250px;
-	  	position: relative;
-	  	top: .5em;
-	}
-
-	.info-box{
-		height: auto;
 	}
 }
 
