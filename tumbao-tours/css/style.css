@@ -451,11 +451,11 @@ height: 5px;
     transition-delay: 0.3s;
 }
 
-.navbar-left{
+#social-media-footer .navbar-left{
 	float: left;
 }
 
-.navbar-right{
+#social-media-footer .navbar-right{
 	float: right;
 }
 
@@ -533,7 +533,7 @@ height: 5px;
 }
 
 @media screen and (max-width: 400px){
-	.navbar-right{
+	#social-media-footer .navbar-right{
 		font-size: .75em;
 		float: left;
 	}
