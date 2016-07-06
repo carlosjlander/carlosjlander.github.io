@@ -157,13 +157,13 @@ footer{
 	font-size: 1.25em;
 }
 
-#social-media ul li a:hover, #social-media-footer ul li a:hover{
+#social-media ul li a:hover, #social-media-footer ul li a:hover, #social-media ul li a:focus, #social-media-footer ul li a:focus{
 	border: 1px solid #ce1126;
   	color: #ce1126;
   	text-decoration: none;
 }
 
-#social-media-footer ul li a:hover{
+#social-media-footer ul li a:hover, #social-media-footer ul li a:focus{
 	text-decoration: none;
 }
 
