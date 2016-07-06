@@ -413,7 +413,7 @@ height: 5px;
   position: relative;
   width: 100%;
 }
-.view h2 {
+.view h3 {
     background: hsla(0, 0%, 0%, 0.8) none repeat scroll 0 0;
     color: #fff;
     font-size: 17px;
@@ -469,7 +469,7 @@ height: 5px;
 	background: hsla(353, 85%, 44%, 0.7) none repeat scroll 0 0;
 }
 
-.view h2 {
+.view h3 {
     transform: translateY(-100px);
     transition: all 0.2s ease-in-out 0s;
 }
@@ -486,7 +486,7 @@ height: 5px;
     transform: translate(0px, 0px);
     transition-delay: 0s;
 }
-.view:hover h2 {
+.view:hover h3{
     transform: translateY(0px);
     transition-delay: 0.5s;
 }
