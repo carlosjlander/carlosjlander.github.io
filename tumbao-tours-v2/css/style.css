@@ -48,25 +48,10 @@ footer{
 	color:#CE1126;
 	/*font-family: 'Josefin Sans', sans-serif;*/
 	font-weight: bold;
-	margin:0;
 }
 
 #header-main h1 img{
 	max-width: 350px;
-}
-
-.navbar{
-	margin-bottom: 0;
-}
-
-.navbar .container{
-	width: 100%;
-}
-
-.nav > li > a {
-  display: block;
-  padding: 10px 15px 0;
-  position: relative;
 }
 
 .navbar-toggle{
@@ -91,7 +76,7 @@ footer{
 .navbar-inverse .navbar-nav > li > a {
   color: #006847;
   border: 1px solid #fff;
-  font-size: 1em;
+  font-size: 0.85em;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -103,11 +88,6 @@ footer{
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
   border: none;
-}
-
-.navbar-collapse{
-	padding-left: 0;
-	padding-right: 0;
 }
 
 .navbar-toggle{
@@ -134,32 +114,28 @@ footer{
   	padding: 0.5em;
 }
 
-/*#social-media ul li a, #social-media-footer ul li a, #social-media-footer ul li span{
+/*#social-media ul li:hover{
+	border-bottom: 1px solid #ce1126;
+}*/
+
+#social-media ul li a, #social-media-footer ul li a, #social-media-footer ul li span{
 	border-bottom: 1px solid #fff;	
   	color: #006847;
   	font-size: 1em;
   	padding-bottom: 1em;
-}*/
-
-#social-media ul li a, #social-media-footer ul li a {
-  border: 1px solid #006847;
-  border-radius: 20px;
-  color: #006847;
-  font-size: 1.25em;
-  padding: 0.5em;
 }
 
 #social-media-footer ul li #copy, #social-media-footer ul li .phone{
 	color: #ce1126;
 }
 
-#social-media-footer ul li .phone{
-	font-size: 1.25em;
+#social-media-footer ul li a{
+	padding: 0;
 }
 
-#social-media ul li a:hover, #social-media-footer ul li a:hover{
-	border: 1px solid #ce1126;
-  	color: #ce1126;
+#social-media ul li a:hover{
+	border-bottom: 1px solid #ce1126;
+  	color: #006847;
   	text-decoration: none;
 }
 
@@ -180,12 +156,6 @@ footer{
 .social-media .fa-instagram::before {
 	font-family: FontAwesome;
 	content:"\f16d";
-}
-
-.fa-thumbs-up{
-	font-family: FontAwesome;
-	content: "\f164";
-	margin-right: .25em;
 }
 
 .social-text-link{
@@ -213,11 +183,11 @@ footer{
 
 .carousel{
 	margin: 0 auto;
-	/*width: 95%;*/
+	width: 95%;
 }
 
 .carousel-inner{
-	max-height: 350px;
+	max-height: 450px;
 }
 
 
@@ -242,7 +212,7 @@ footer{
 }*/
 
 .carousel-inner > .item > img{
-	height: 350px;
+	height: 450px;
 	width: 100%;
 }
 
@@ -265,12 +235,11 @@ footer{
 	color: #ffffff;
 }
 
-.item .carousel-caption h2 {
-	bottom: 10%;
-  	color: white;
-  	font-size: 1.5em;
-  	position: absolute;
-  	width: 100%;
+.item .carousel-caption h3 {
+  color: white;
+  bottom: 10%;
+  position: absolute;
+  width: 100%;
 }
 
 .carousel-control{
@@ -311,15 +280,14 @@ footer{
 .panel-default > .panel-heading{
 	background-color: #fff;
 	border: 0;
-	border-top: 2px dotted #006847;
+	border-top: 1px dotted #006847;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	color: #006847;
-	text-align: center;
 }
 
 .panel-default > .panel-body{
-	border-bottom: 2px dotted #CE1126;
+	border-bottom: 1px dotted #CE1126;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	padding-top: 0;
@@ -335,9 +303,7 @@ footer{
 
 .page-header{
 	border-bottom: none;	
-	font-size: 1.25em;
-	margin: 1em;
-	padding: 0;
+	font-size: 1.5em;
 	/*margin: 10% 0 5%;*/
 }
 
@@ -352,18 +318,6 @@ footer{
 	text-decoration: none;
 }
 
-#footer-page{
-	left: 0;
-	margin: 0 auto;
-	position: absolute;
-	width: 100%;
-}
-
-#footer-page .row{
-	margin-left: 0;
-	margin-right: 0;
-}
-
 #footer-border{
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006847+0,ffffff+50,ffffff+51,ce1126+100 */
 background: rgb(0,104,71); /* Old browsers */
@@ -372,8 +326,6 @@ background: -webkit-linear-gradient(left,  rgba(0,104,71,1) 0%,rgba(255,255,255,
 background: linear-gradient(to right,  rgba(0,104,71,1) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 51%,rgba(206,17,38,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006847', endColorstr='#ce1126',GradientType=1 ); /* IE6-9 */
 height: 5px;
-	margin-left: 0;
-	margin-right: 0;
 }
 
 #copy{
@@ -501,47 +453,13 @@ height: 5px;
 
 #social-media-footer .navbar-left{
 	float: left;
-	margin-left: 3%;
 }
 
 #social-media-footer .navbar-right{
 	float: right;
-	margin-top: 1.75em;
 }
 
-/*.content-plus{
-	margin.top: 1em;
-	margin-bottom: 2em;
-}*/
-.content-plus {
-  margin: 0 auto;
-  padding-bottom: 2em;
-}
-
-.plus{
-	/*border: 1px solid red;*/
-	color: #006847;
-	float: left;
-	font-size: 1.5em;
-	padding: .5em;
-	text-align: center;
-}
-
-#plus1, #plus2, #plus3, #plus4{
-	visibility: hidden;
-}
-
-@media screen and (min-width: 1280px){
-	.view{
-		height: 230px;
-	}
-
-	.info-box{
-		height: auto;
-	}
-}
-
-@media screen and (min-width: 800px) and (max-width: 1280px){
+@media screen and (min-width: 700px) and (max-width: 1280px){
 
 	h1{
 		font-size: 2.5em;
@@ -560,25 +478,15 @@ height: 5px;
 	}
 }
 
-/*	.navbar-inverse .navbar-nav > li > a {
-  		font-size: .85em;
+@media screen and (min-width: 1280px){
+	.view{
+		height: 230px;
 	}
-}*/
 
-@media screen and (max-width: 840px){
-	.navbar-inverse .navbar-nav > li > a {
-  		font-size: .85em;
-	}
-}
-
-
-@media screen and (max-width: 767px){
-	#social-media {
-	  top: 135px;
-	  z-index: 999;
+	.info-box{
+		height: auto;
 	}
 }
-
 
 @media screen and (max-width: 700px){
 	h1{
@@ -593,7 +501,7 @@ height: 5px;
 		width: 100%;
 	}
 
-	.item .carousel-caption h2{
+	.item .carousel-caption h3 {
   		font-size: 0.75em;
 		margin-bottom: 1em;
 	}
@@ -612,6 +520,7 @@ height: 5px;
 	#header-main h1 img {
 		max-width: 250px;
 	  	position: relative;
+	  	top: .5em;
 	}
 
 	.info-box{
@@ -621,21 +530,12 @@ height: 5px;
 	#social-media-footer ul li{
 		padding: .25em;
 	}
-
-	#social-media-footer .navbar-left{
-		text-align: center;
-	}
-
-	#social-media {
-	  top: 95px;
-	  z-index: 999;
-	}
 }
 
 @media screen and (max-width: 400px){
 	#social-media-footer .navbar-right{
 		font-size: .75em;
-		/*float: left;*/
+		float: left;
 	}
 }
 
