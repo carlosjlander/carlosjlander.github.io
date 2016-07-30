@@ -13,7 +13,7 @@ header{
 	background: -o-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(125,185,232,1) 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(125,185,232,1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(125,185,232,1) 100%); /* W3C */
-	border-bottom: 10px solid #1d8ece;
+	border-bottom: 10px solid #12557c;
 	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
     height: 310px;
     margin-top: 0;
@@ -29,7 +29,7 @@ nav{
 }
 
 nav ul{
-	background-color:#1d8ece;
+	background-color:#12557c;
 	padding-bottom:.5em;
 	text-align:center;
 }
@@ -68,7 +68,7 @@ h1{
 }
 
 h2{
-	color: #1d8ece;
+	color: #12557c;
     font-size: 2rem;
     padding-top: 30px;
     text-align: left;
@@ -76,7 +76,7 @@ h2{
 }
 
 h3{
-	color: #1d8ece;
+	color: #12557c;
     font-size: 1.5rem;
     margin-left: 0.5em;
     margin-top: 3%;
@@ -121,7 +121,7 @@ footer {
 }
 
 footer a:link{
-	color:#FF8000;
+	color:#834200;
 }
 
 fieldset{
@@ -248,7 +248,7 @@ form input:optional {border: 1px solid #dfdfdf;}
 }
 
 .profesional h4{
-	color:#1d8ece;
+	color:#12557c;
 }
 
 .secAcademy{
@@ -265,20 +265,20 @@ form input:optional {border: 1px solid #dfdfdf;}
 
 .social{
 	text-align:right;
-	color:#1d8ece;
+	color:#12557c;
 }
 
 
 .books h4{
-	color:#1d8ece;
+	color:#12557c;
 }
 
 .movies h4{
-	color:#1d8ece;
+	color:#12557c;
 }
 
 .conferences h4{
-	color:#1d8ece;
+	color:#12557c;
 }
 
 .conferences{
@@ -333,7 +333,7 @@ footer ul li{
 
 .draggedOver{
 	background-color:#fff;
-	border:2px solid #1d8ece;	
+	border:2px solid #12557c;	
 	display:block;
 	height:250px;
 	padding-left:0 !important;
