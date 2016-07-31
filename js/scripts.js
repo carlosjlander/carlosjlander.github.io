@@ -111,8 +111,4 @@ function Init(){
 		$("#menu ul li").toggle("fast");
 	})
 	
-	$("#menu_link").keypress(function(){
-		$("#menu ul li").toggle("fast");
-	})
-	
 }

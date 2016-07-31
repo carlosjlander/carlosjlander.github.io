@@ -109,6 +109,22 @@ function Init(){
 	
 	$("#menu_link").click(function(){
 		$("#menu ul li").toggle("fast");
+		
+		var propiedad = 	$("#ulMenu").attr('aria-expanded');
+		if(propiedad == 'false')
+			$("#ulMenu").attr('aria-expanded','true');
+		else if(propiedad == 'true')
+			$("#ulMenu").attr('aria-expanded','false');
+	})
+	
+	$("#menu_link").keypress(function(){
+		$("#menu ul li").toggle("fast");
+		
+		var propiedad = 	$("#ulMenu").attr('aria-expanded');
+		if(propiedad == 'false')
+			$("#ulMenu").attr('aria-expanded','true');
+		else if(propiedad == 'true')
+			$("#ulMenu").attr('aria-expanded','false');
 	})
 	
 }
