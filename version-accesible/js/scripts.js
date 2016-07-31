@@ -26,7 +26,7 @@ function Init(){
 					$('#menu_title').text(wordLink);
 			});
 		//return;
-		camiarPropiedadAriaExpanded();
+		cambiarPropiedadAriaExpanded();
 	});
 	
 	var IniPoint = new Waypoint({
@@ -112,13 +112,13 @@ function Init(){
 	$("#menu_link").click(function(){
 		$("#menu ul li").toggle("fast");
 		
-		camiarPropiedadAriaExpanded();
+		cambiarPropiedadAriaExpanded();
 	})
 	
 	$("#menu_link").keypress(function(){
 		$("#menu ul li").toggle("fast");
 		
-		camiarPropiedadAriaExpanded();
+		cambiarPropiedadAriaExpanded();
 	})
 	
 }
