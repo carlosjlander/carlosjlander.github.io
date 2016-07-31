@@ -124,7 +124,7 @@ function Init(){
 }
 
 
-function camiarPropiedadAriaExpanded(){
+function cambiarPropiedadAriaExpanded(){
 		var propiedad = 	$("#ulMenu").attr('aria-expanded');
 		if(propiedad == 'false')
 			$("#ulMenu").attr('aria-expanded','true');
