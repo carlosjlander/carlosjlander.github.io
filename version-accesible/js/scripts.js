@@ -14,7 +14,8 @@ function Init(){
 		
 		$('html,body').animate(
 			{scrollTop:top},
-			'slow',function(){
+			'slow',function(){			
+			
 				$('#menu ul li a').removeClass();
 				$('#'+IdOpc).attr('class','linkActive');
 				
@@ -25,6 +26,7 @@ function Init(){
 					$('#menu_title').text(wordLink);
 			});
 		//return;
+		camiarPropiedadAriaExpanded();
 	});
 	
 	var IniPoint = new Waypoint({
@@ -110,21 +112,22 @@ function Init(){
 	$("#menu_link").click(function(){
 		$("#menu ul li").toggle("fast");
 		
-		var propiedad = 	$("#ulMenu").attr('aria-expanded');
-		if(propiedad == 'false')
-			$("#ulMenu").attr('aria-expanded','true');
-		else if(propiedad == 'true')
-			$("#ulMenu").attr('aria-expanded','false');
+		camiarPropiedadAriaExpanded();
 	})
 	
 	$("#menu_link").keypress(function(){
 		$("#menu ul li").toggle("fast");
 		
+		camiarPropiedadAriaExpanded();
+	})
+	
+}
+
+
+function camiarPropiedadAriaExpanded(){
 		var propiedad = 	$("#ulMenu").attr('aria-expanded');
 		if(propiedad == 'false')
 			$("#ulMenu").attr('aria-expanded','true');
 		else if(propiedad == 'true')
 			$("#ulMenu").attr('aria-expanded','false');
-	})
-	
 }
